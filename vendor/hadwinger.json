@@ -1,0 +1,9 @@
+{
+  "name": "sofiane",
+  "stack": "PERN",
+  "variant": "JavaScript",
+  "simpleApp": true,
+  "npmRunAll": true,
+  "docker": true,
+  "dockerCompose": true
+}
