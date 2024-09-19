@@ -17,7 +17,7 @@ services:
       context: ./hwg-sofiane/nginx
     container_name: server-sofiane
     ports:
-      - "2121:80"
+      - "80:80"
     volumes:
       - ./hwg-sofiane/nginx/default.conf:/etc/nginx/conf.d/default.conf
   api:
